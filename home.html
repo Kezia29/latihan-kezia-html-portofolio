@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>
+            Home | Kezia Putri Personal Website
+        </title>
+
+        <style>
+            .button1 {
+                border-left: 25%;
+                border : none;
+                padding: 13px 10px;
+                text-align: center; 
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14 px;
+                margin : 10x 5px; 
+                cursor : pointer;
+                font-family: Helvetica, sans-serif;
+                border-radius: 2px;
+            }
+
+            .button1:hover{
+                background-color: pink;
+                color :black;
+            }
+
+
+            .box1 {
+                background-image: url(images/coba.jpg);
+                background-size:100%;
+                height: 50px;
+                padding: 10px;
+                padding-left: 10%;
+            }
+
+            .box2 {
+                background-color: pink;
+                color : black;
+                padding: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .box3 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-image: url(images/coba.jpg);
+                color: white;
+                height:350px;
+                background-size: cover;
+                padding: 50px;
+            }
+
+            .box2 > h2 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+
+            .overview {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: white;
+            }
+
+            .boxfoot{
+                background-color: black;
+                color: pink;
+                font-family:'Segoe UI';
+                padding:2px 10px 2px 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box1">
+            <nav>
+                <button class= "button1">
+                    <a href="home.html" style = "color: red;">Home</a>
+                </button>
+                <button class= "button1">
+                    <a href="about.html" style = "color: black;">About Me</a>
+                </button>
+                <button class= "button1">
+                    <a href="contact.html" style= "color: black">Contact Me</a>
+                </button>
+                <button class= "button1">
+                    <a href="cv-kezia.pdf" style="color:black">Download CV</a>
+                </button>
+            </nav>
+        </div>
+        
+        <hr>
+    
+        <div class="box2">
+            <header class ="box2" style="text-align:center;">
+                <img src="images/keziaprofile.jpg" width = "150" height="150" style = "border-radius:50%;"/>
+
+                <h1 class ="hjudul">
+                    Kezia Putri Berliani
+                </h1>
+                <p class = "p"> 
+                    (Data Analyst) 
+                </p>
+                
+            </header>
+        </div>
+
+            <div class="box3">
+                <div style="padding: 2px 300px 0px 300px; width: px">
+                    <article style="text-align:center;">
+                        <h2>Overview</h2>
+                        <p>
+                            Hi, saya adalah data analis yang berdomisili di Madiun.
+                            Saat ini saya sedang mengenyam pendidikan Informatika di Wearness Madiun.
+                        </p>
+                    </article>
+                </div>
+                        
+                <div class = "overview" style= "max-width: 600px; margin: 3em auto">
+                    <table class="overview" border="1" width="100%" style="border-color: white;">
+                        <thead>
+                            <tr>
+                                <th>Skill</th>
+                                <th>My Experience</th>
+                            </tr>
+                        </thead>
+                        <tbody> 
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>SQL (Expert)</li>
+                                        <li>DBMS (Intermediate)</li>
+                                        <li>Phython (Intermediate)</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Internship at Document Control ExxonMobil</li>
+                                        <li>Archiving Media at Tuban Government Library adn Archive Center</li>
+                                        <li>Leader of Website Team</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        <hr/>
+
+        <footer class="boxfoot" style="text-align:center;">
+            <p>Copyright @2023 by Keziyol</p>
+        </footer>
+
+     
+
+    </body>
+</html>
